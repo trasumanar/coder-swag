@@ -12,6 +12,7 @@
 		04B74DA1203F0E0A000C1775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B74D9F203F0E0A000C1775 /* Main.storyboard */; };
 		04B74DA3203F0E0A000C1775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B74DA2203F0E0A000C1775 /* Assets.xcassets */; };
 		04B74DA6203F0E0A000C1775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B74DA4203F0E0A000C1775 /* LaunchScreen.storyboard */; };
+		04B74DB2203F54CF000C1775 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B74DB1203F54CF000C1775 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04B74DA2203F0E0A000C1775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B74DA5203F0E0A000C1775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B74DA7203F0E0A000C1775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B74DB1203F54CF000C1775 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		04B74D9A203F0E09000C1775 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				04B74DAD203F5402000C1775 /* Model */,
+				04B74DAE203F5409000C1775 /* Controller */,
+				04B74DB0203F542C000C1775 /* View */,
 				04B74D9B203F0E09000C1775 /* AppDelegate.swift */,
-				04B74D9D203F0E0A000C1775 /* ViewController.swift */,
 				04B74D9F203F0E0A000C1775 /* Main.storyboard */,
 				04B74DA2203F0E0A000C1775 /* Assets.xcassets */,
 				04B74DA4203F0E0A000C1775 /* LaunchScreen.storyboard */,
 				04B74DA7203F0E0A000C1775 /* Info.plist */,
 			);
 			path = "coder-swag";
+			sourceTree = "<group>";
+		};
+		04B74DAD203F5402000C1775 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04B74DAE203F5409000C1775 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04B74D9D203F0E0A000C1775 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04B74DB0203F542C000C1775 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04B74DB1203F54CF000C1775 /* CategoryCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			files = (
 				04B74D9E203F0E0A000C1775 /* ViewController.swift in Sources */,
 				04B74D9C203F0E09000C1775 /* AppDelegate.swift in Sources */,
+				04B74DB2203F54CF000C1775 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +306,7 @@
 				DEVELOPMENT_TEAM = 7532KW3QNA;
 				INFOPLIST_FILE = "coder-swag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.coder-swag";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.coderswag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +321,7 @@
 				DEVELOPMENT_TEAM = 7532KW3QNA;
 				INFOPLIST_FILE = "coder-swag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.coder-swag";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.coderswag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
