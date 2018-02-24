@@ -41,7 +41,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shirts" translatesAutoresizingMaskIntoConstraints="NO" id="ObK-MZ-4wf">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ObK-MZ-4wf">
                                                     <rect key="frame" x="0.0" y="-3.5" width="375" height="130"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="130" id="RHm-Sk-D0K"/>
@@ -117,7 +117,4 @@
             <point key="canvasLocation" x="50" y="100"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="shirts" width="1024" height="703"/>
-    </resources>
 </document>
